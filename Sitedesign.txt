@@ -1,0 +1,5 @@
+Bakcround GIF. 
+nice fonts.
+Navigation bar (with every text)
+Main div will be 10%-20% transparent. 
+
