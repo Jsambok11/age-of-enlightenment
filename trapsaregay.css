@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c3/Scuola_di_atene_01.jpg');
+  background-size:100%;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+}
+#navigationbar{
+  width: 99vw;
+  height: 10vh;
+  background-color: white;
+  opacity: 0.8;
+}
+#fitxt{
+  margin-top: 60px;
+  height: 100vh;
+  width: 65vw;
+  background-color: white;
+  opacity: 0.8;
+}
+#helper{
+  height: 40vh;
+  width: 30vw;
+  background-color: white;
+  opacity: 0.8;
+  float: right;
+}
