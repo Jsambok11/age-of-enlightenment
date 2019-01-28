@@ -4,7 +4,7 @@
 }
 
 body{
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c3/Scuola_di_atene_01.jpg');
+  background-image: url('https://stmed.net/sites/default/files/j-cole-wallpapers-30413-3260246.jpg');
   background-size:100%;
   background-attachment: fixed;
   height:100%;
@@ -29,4 +29,9 @@ body{
   background-color: white;
   opacity: 0.8;
   float: right;
+}
+#navigationbar a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
