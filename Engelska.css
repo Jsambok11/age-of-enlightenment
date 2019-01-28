@@ -31,6 +31,7 @@ body{
   float: right;
 }
 #navigationbar a{
+  margin-left: 15px;
   text-decoration: none;
   color: black;
   font-size: 20px;
