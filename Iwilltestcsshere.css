@@ -21,68 +21,91 @@ body{
 }
 #first{
   margin-top: 10vh;
-  width: 60vw;
-  height: 100vh;
   background-color: white;
   opacity: 0.8;
 }
 #second{
+  margin-left: 10vw;
   margin-top: 10vh;
-  width: 60vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.8;
-}
-#three{
-  width: 60vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.8;
-}
-#four{
-  width: 60vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.8;
-}
-#five{
-  width: 60vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.8;
-}
-#six{
-  width: 60vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.8;
-}
-#seven{
-  width: 60vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.8;
-}
-#eight{
-  width: 60vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.8;
-}
-#nine{
+  margin-top: 1vh;
   width: 80vw;
   height: 100vh;
   background-color: white;
   opacity: 0.8;
 }
-}
-#helper{
-  height: 40vh;
-  width: 20vw;
+#three{
+  margin-left: 10vw;
+  margin-top: 1vh;
+  width: 80vw;
+  height: 100vh;
   background-color: white;
   opacity: 0.8;
-  float: right;
 }
+#four{
+  margin-left: 10vw;
+  margin-top: 1vh;
+  width: 80vw;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.8;
+}
+#five{
+  margin-left: 10vw;
+  margin-top: 1vh;
+  width: 80vw;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.8;
+}
+#six{
+  margin-left: 10vw;
+  margin-top: 1vh;
+  width: 80vw;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.8;
+}
+#seven{
+  margin-left: 10vw;
+  margin-top: 1vh;
+  width: 80vw;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.8;
+}
+#eight{
+  margin-left: 10vw;
+  margin-top: 1vh;
+  width: 80vw;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.8;
+}
+#nine{
+  margin-left: 10vw;
+  margin-top: 1vh;
+  width: 80vw;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.8;
+}
+#ten{
+  margin-left: 10vw;
+  margin-top: 1vh;
+  width: 80vw;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.8;
+}
+#eleven{
+  margin-left: 10vw;
+  margin-top: 1vh;
+  width: 80vw;
+  height: 100vh;
+  background-color: white;
+  opacity: 0.8;
+}
+
 #navigationbar a{
   margin-left: 16px;
   text-decoration: none;
