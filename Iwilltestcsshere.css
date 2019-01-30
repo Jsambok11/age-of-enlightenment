@@ -11,17 +11,17 @@ body{
   width:100%;
 }
 #navigationbar{
-  width: 99vw;
-  height: 10vh;
+  width: 100vw;
+  height: 6vh;
   background-color: white;
   opacity: 0.8;
 }
-#fitxt{
-  margin-top: 60px;
+#first{
+  width: 60vw;
   height: 100vh;
-  width: 50vw;
   background-color: white;
   opacity: 0.8;
+}
 }
 #helper{
   height: 40vh;
