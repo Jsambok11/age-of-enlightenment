@@ -17,6 +17,7 @@ body{
   opacity: 0.8;
 }
 #first{
+  margin-top: 10vh;
   width: 60vw;
   height: 100vh;
   background-color: white;
