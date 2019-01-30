@@ -15,8 +15,12 @@ body{
   height: 6vh;
   background-color: white;
   opacity: 0.8;
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
 }
 #first{
+  margin-top: 10vh;
   width: 60vw;
   height: 100vh;
   background-color: white;
