@@ -66,3 +66,6 @@ body{
 #navigationbar a:hover{
   background-color: #E3B552;
 }
+@font-face {
+  font-family:'Varela Round',;
+  src: url('https://fonts.googleapis.com/css?family=Varela+Round');
