@@ -3,12 +3,32 @@
   padding: 0px;
 }
 
+* {
+  font-family: 'Varela Round', sans-serif;
+  font size: 50:
+
+}
+
 body{
+  float: right;
   background-image: url('https://salimbasarda.net/wp-content/uploads/2016/04/Illuminismu.jpg');
   background-size:100%;
   background-attachment: fixed;
   height:100%;
   width:100%;
+}
+
+#exp {
+ width: 15vw;
+ height: 10vh;
+ background-color: pink;
+ opacity: 0.8;
+ margin-right: 5vw;
+ margin-left:5vw;
+ margin-top: 5vh;
+ position: sticky;
+ float: right;
+
 }
 #navigationbar{
   width: 100vw;
@@ -18,89 +38,20 @@ body{
   min-height: 10em;
   display: table-cell;
   vertical-align: middle;
+
 }
-#first{
-  margin-top: 10vh;
-  background-color: white;
-  opacity: 0.8;
+#cont {
+
+  margin-top: 70px;
+  float:right;
+  position: relative;
+
 }
-#second{
-  margin-left: 10vw;
-  margin-top: 10vh;
+
+#content{
+  margin-left: 5vw;
   margin-top: 1vh;
-  width: 80vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.9;
-}
-#three{
-  margin-left: 10vw;
-  margin-top: 1vh;
-  width: 80vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.9;
-}
-#four{
-  margin-left: 10vw;
-  margin-top: 1vh;
-  width: 80vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.9;
-}
-#five{
-  margin-left: 10vw;
-  margin-top: 1vh;
-  width: 80vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.9;
-}
-#six{
-  margin-left: 10vw;
-  margin-top: 1vh;
-  width: 80vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.9;
-}
-#seven{
-  margin-left: 10vw;
-  margin-top: 1vh;
-  width: 80vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.9;
-}
-#eight{
-  margin-left: 10vw;
-  margin-top: 1vh;
-  width: 80vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.9;
-}
-#nine{
-  margin-left: 10vw;
-  margin-top: 1vh;
-  width: 80vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.9;
-}
-#ten{
-  margin-left: 10vw;
-  margin-top: 1vh;
-  width: 80vw;
-  height: 100vh;
-  background-color: white;
-  opacity: 0.9;
-}
-#eleven{
-  margin-left: 10vw;
-  margin-top: 1vh;
-  width: 80vw;
+  width: 70vw;
   height: 100vh;
   background-color: white;
   opacity: 0.9;
