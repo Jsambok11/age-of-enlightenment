@@ -19,18 +19,20 @@ body{
 }
 
 #exp {
+#exp {  /*förklaringar*/
  width: 15vw;
  height: 10vh;
  background-color: pink;
  opacity: 0.8;
  margin-right: 5vw;
- margin-left:5vw;
+ margin-right: 2vw;
  margin-top: 5vh;
  position: sticky;
  float: right;
 
 }
 #navigationbar{
+#navigationbar {
   width: 100vw;
   height: 6vh;
   background-color: white;
