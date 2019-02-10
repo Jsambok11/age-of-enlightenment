@@ -1,3 +1,3 @@
-$('switch').click(function () {
-               $('link#style')attr('href','').attr('href', 'nightmode.css');
-           });
+document.getElementById('knapp').addEventListener('click', function() {
+        document.getElementById('CSS').href = 'nightmode.css';
+});
