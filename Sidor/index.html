@@ -3,16 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Age of Enlightment</title>
-    <link href="Iwilltestcsshere.css" rel="stylesheet">
-    <link href="nightmode.css" rel="stylesheet" id="CSS">
+    <link href="../Default.css" rel="stylesheet" id="CSS">
 
     <style>
     @import url('https://fonts.googleapis.com/css?family=Varela+Round');
     @import url('https://fonts.googleapis.com/css?family=Shrikhand');
     </style>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js">
+
+    </script>
+    <script>
+    function SkrivutS(){
+      $.get("Texter/societal.txt", function (data){
+        document.getElementById("content").innerHTML = data;
+      });
+    };
+    </script>
   </head>
   <body>
-     <script src="nightmode.js"></script>
+     <script src="../nightmode.js"></script>
     <div id="head">
 
        <label class="switch" align="right" id="knapp">
@@ -34,7 +43,7 @@
 
       <a href="gov.html"> Government </a>
       <a href="culture.html"> Culture </a>
-      <a href="societal.html"> Societal life </a>
+      <a href="#" onclick="SkrivutS()"> Societal life </a>
       <a href="hist.html"> History </a>
       <a href="politics.html"> Politics </a>
       <a href="tech.html"> Tech and science </a>

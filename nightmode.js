@@ -1,3 +1,6 @@
-document.getElementById('knapp').addEventListener('click', function() {
-        document.getElementById('CSS').href = 'nightmode.css';
-});
+  $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('body').toggleClass('night')
+        })
+    })
