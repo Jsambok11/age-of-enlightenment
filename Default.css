@@ -1,3 +1,4 @@
+
 *{
   margin: 0px;
   padding: 0px;
@@ -163,4 +164,98 @@ footer {
 
   .slider.round:before {
     border-radius: 50%;
+  }
+
+
+/*Nightmode CSS*/
+
+  body .night{
+    float: right;
+    background-image:url('do-bright.php.jpeg');
+    background-size:100%;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+  }
+
+  #log .night {
+    font-family: 'Shrikhand', cursive;
+    margin-left: 20vw;
+    font-size: 50px;
+    color: white;g
+  }
+
+  #head .night{
+    background-color: #4e5156;
+    opacity: 0.5;
+  }
+
+
+  #exp .night{
+   width: 20vw;
+   height: 25vh;
+   background-color: #4e5156;
+   opacity: 0.9;
+   margin-right: 5vw;
+   margin-top: 5vh;
+   position: sticky;
+   float: right;
+
+  }
+  #navigationbar .night{
+    width: 100vw;
+    height: 11vh;
+   background-image: linear-gradient( #111316 , #282c33,#111316);
+   box-shadow:5px 1px 100px ;
+
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+
+  #content .night{
+    margin-left: 15vw;
+    margin-top: 1vh;
+    width: 50vw;
+    height: 90vh;
+    background-color: #4e5156;
+    opacity: 0.95;
+    color: #dedee0;
+  }
+
+  #navigationbar a .night{
+    margin-left: 15px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #89898c;
+    font-size: 23px;
+    border-top: 1px solid #1f1f21;
+    border-left: 1px solid #1f1f21;
+    border-right: 1px solid #1f1f21;
+    border-radius: 6px;
+    background-image: linear-gradient( #2d3035 , #494c51);
+  }
+  #navigationbar a:hover .night{
+    color: #d6d6d6;
+    transition: 0.5s;
+    font-size: 23.5px;
+
+  }
+
+  #head a .night{
+    float:right;
+    font-size: 23;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #2b2e3d;
+  }
+
+  footer  .night{
+    background-color: white;
+    opacity: 0.8;
+    margin-top:1vh;
+    padding: 10px;
   }
