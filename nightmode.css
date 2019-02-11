@@ -11,7 +11,7 @@
 
 body{
   float: right;
-  background-image:url('https://salimbasarda.net/wp-content/uploads/2016/04/Illuminismu.jpg');
+  background-image:url('do-bright.php.jpeg');
   background-size:100%;
   background-attachment: fixed;
   height:100%;
@@ -22,10 +22,11 @@ body{
   font-family: 'Shrikhand', cursive;
   margin-left: 20vw;
   font-size: 50px;
+  color: white;g
 }
 
 #head {
-  background-color: white;
+  background-color: #4e5156;
   opacity: 0.5;
 }
 
@@ -33,7 +34,7 @@ body{
 #exp {
  width: 20vw;
  height: 25vh;
- background-color: white;
+ background-color: #4e5156;
  opacity: 0.9;
  margin-right: 5vw;
  margin-top: 5vh;
@@ -44,7 +45,7 @@ body{
 #navigationbar{
   width: 100vw;
   height: 11vh;
- background-image: linear-gradient( #fff8f2 , #ffffff,#fff8f2);
+ background-image: linear-gradient( #111316 , #282c33,#111316);
  box-shadow:5px 1px 100px ;
 
   min-height: 10em;
@@ -58,8 +59,9 @@ body{
   margin-top: 1vh;
   width: 50vw;
   height: 90vh;
-  background-color: white;
-  opacity: 0.9;
+  background-color: #4e5156;
+  opacity: 0.95;
+  color: #dedee0;
 }
 
 #navigationbar a{
@@ -67,19 +69,17 @@ body{
   padding: 5px;
   text-decoration: none;
   font-weight: bold;
-  color: black;
+  color: #89898c;
   font-size: 23px;
-  border-top: 1px solid #ccc2b5;
-  border-left: 1px solid #ccc2b5;
-  border-right: 1px solid #ccc2b5;
+  border-top: 1px solid #1f1f21;
+  border-left: 1px solid #1f1f21;
+  border-right: 1px solid #1f1f21;
   border-radius: 6px;
-  background-image: linear-gradient( #fff8f2 , #ffffff);
-
-
+  background-image: linear-gradient( #2d3035 , #494c51);
 }
 #navigationbar a:hover{
   color: #d6d6d6;
-  transition: 0.9s;
+  transition: 0.5s;
   font-size: 23.5px;
 
 }
