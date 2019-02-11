@@ -1,6 +1,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  color: white;
 }
 
 * {
@@ -156,7 +157,7 @@ footer {
     transform: translateX(26px);
   }
 
-  /* Rounded sliders */
+
   .slider.round {
     border-radius: 34px;
   }
@@ -164,3 +165,24 @@ footer {
   .slider.round:before {
     border-radius: 50%;
   }
+
+  .drophover{
+      position:relative;
+      display:inline-block;
+    }
+  .drophover:hover .dropcontent{
+      display:block;
+      background-color: white;
+    }
+  .drophover:first-child{
+      background-color:beige;
+      color:#000
+    }
+  .dropcontent{
+    display:none;
+    position:absolute;
+    min-width:160px;
+    margin:0;
+    padding:0;
+    z-index:1;
+    }
