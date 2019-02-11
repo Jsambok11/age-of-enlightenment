@@ -171,8 +171,8 @@ footer {
       display:inline-block;
     }
   .drophover:hover .dropcontent{
-      display:block
-      background-color:black;
+      display:block;
+      background-color: white;
     }
   .drophover:first-child{
       background-color:beige;
