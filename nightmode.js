@@ -1,3 +1,6 @@
-$('switch').click(function () {
-               $('link#style')attr('href','').attr('href', 'nightmode.css');
-           });
+  $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('body').toggleClass('night')
+        })
+    })
