@@ -43,3 +43,8 @@ function Skrivut9(){
     document.getElementById("content").innerHTML = data;
   });
 };
+function Skrivut10(){
+  $.get("../Texter/#.txt", function (data){
+    document.getElementById("content").innerHTML = data;
+  });
+};
