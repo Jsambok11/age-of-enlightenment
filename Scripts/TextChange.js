@@ -4,7 +4,7 @@ function Skrivut1(){
   });
 };
 function Skrivut2(){
-  $.get("../Texter/#.txt", function (data){
+  $.get("../Texter/Women.txt", function (data){
     document.getElementById("content").innerHTML = data;
   });
 };
@@ -24,7 +24,7 @@ function Skrivut5(){
   });
 };
 function Skrivut6(){
-  $.get("../Texter/#.txt", function (data){
+  $.get("../Texter/Culture.txt", function (data){
     document.getElementById("content").innerHTML = data;
   });
 };
@@ -44,7 +44,7 @@ function Skrivut9(){
   });
 };
 function Skrivut10(){
-  $.get("../Texter/#.txt", function (data){
+  $.get("../Texter/Tech.txt", function (data){
     document.getElementById("content").innerHTML = data;
   });
 };
