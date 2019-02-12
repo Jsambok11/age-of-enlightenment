@@ -1,5 +1,5 @@
 function Skrivut1(){
-  $.get("../Texter/societal.txt", function (data){
+  $.get("../Texter/.txt", function (data){
     document.getElementById("content").innerHTML = data;
   });
 };
@@ -14,7 +14,7 @@ function Skrivut3(){
   });
 };
 function Skrivut4(){
-  $.get("../Texter/#.txt", function (data){
+  $.get("../Texter/Religion.txt", function (data){
     document.getElementById("content").innerHTML = data;
   });
 };
@@ -29,7 +29,7 @@ function Skrivut6(){
   });
 };
 function Skrivut7(){
-  $.get("../Texter/#.txt", function (data){
+  $.get("../Texter/societal.txt", function (data){
     document.getElementById("content").innerHTML = data;
   });
 };
