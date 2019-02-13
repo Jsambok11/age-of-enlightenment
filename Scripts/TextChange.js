@@ -18,6 +18,11 @@ function Skrivut4(){
     document.getElementById("content").innerHTML = data;
   });
 };
+function SkrivutS(){
+  $.get("../Texter/art.txt", function (data){
+    document.getElementById("content").innerHTML = data;
+  });
+};
 function Skrivut5(){
   $.get("../Texter/#.txt", function (data){
     document.getElementById("content").innerHTML = data;
