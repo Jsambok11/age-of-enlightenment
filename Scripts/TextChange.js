@@ -39,7 +39,7 @@ function Skrivut8(){
   });
 };
 function Skrivut9(){
-  $.get("../Texter/#.txt", function (data){
+  $.get("../Texter/politics.txt", function (data){
     document.getElementById("content").innerHTML = data;
   });
 };
