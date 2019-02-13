@@ -1,5 +1,6 @@
 <h1>Religion and Superstition </h1>
 <br>
+<p>
 The Age of Enlightenment refers to the 18th century in European philosophy and is often studied part of a larger age that also includes the age of rationality. The term refers to the evolution of a historical cultural movement called Enlightenment which defended rationality and its principles as means to establish the legal system of ethics and knowledge instead of religion. The pioneers of this movement considered their mission is to lead the world to development and modernization and to leave old religious and cultural traditions and irrational ideas within a period of time they called "The Dark Ages".
 
 Those who think that the Age of Enlightenment would mean infidelity, atheism, or total abandonment of religion are mistaken. On the contrary, it basically meant the setting of a new conception of religion, and this perception setting differs from the fundamentalist perception that prevailed throughout the middle Ages.
@@ -11,7 +12,10 @@ They blame some fossilized versions of Christianity by philosophers did not mean
 
 The philosophy of enlightenment has given its confidence to the man and his potential and ability to change the reality and improve it for the better. This is how the philosophers of Enlightenment depicted a bright future in a world dominated by man, in which paradise is achieved on this earth and through this progress they were able to win the battle against fundamentalism.
 
-Sources:
-https://www.tandfonline.com/doi/full/10.1080/01916599.2016.1203590
-https://en.wikipedia.org/wiki/Age_of_Enlightenment
-http://www.newworldencyclopedia.org/entry/Age_of_Enlightenment
+
+
+</p>
+<hr>
+<a href="https://www.tandfonline.com/doi/full/10.1080/01916599.2016.1203590"> <p> https://www.tandfonline.com/doi/full/10.1080/01916599.2016.1203590</p></a>
+<a href="http://www.newworldencyclopedia.org/entry/Age_of_Enlightenment"> <p> http://www.newworldencyclopedia.org/entry/Age_of_Enlightenment</p></a>
+<a href="https://en.wikipedia.org/wiki/Age_of_Enlightenment"> <p> https://en.wikipedia.org/wiki/Age_of_Enlightenment</p></a>

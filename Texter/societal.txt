@@ -1,5 +1,6 @@
 <h1>Societal life during the enlightenment </h1>
 <br>
+<p>
 During the 18th century, more and more people in European society learned to read. With this new skill came a new public interest: reading books. New printing machines would lead to newspapers and books being more widely available and distributed. This new group of literate, non-aristocratic citizens were the middle class, slowly emerging from poverty.
 People of this era were not only reading more but also discussing the texts and current events. Philosophical and scientific discoveries were a big deal during this time and society would never be the same.
 
@@ -10,5 +11,8 @@ This psychoactive drink played a significant role in the minds of people during 
 
 However, these pleasures were not for the average man. Lower class people still spent most of their time making sure they could afford food for the day, some in the newly built factories around the time of the industrial revolution. Women were not included in these activities either as it was still believed that the middle- /and upper-class women should be in the house.
 
-https://en.wikipedia.org/wiki/Coffee#History
-https://www.livescience.com/55327-the-enlightenment.html
+
+</p>
+<hr>
+<a href="https://en.wikipedia.org/wiki/Coffee#History"> <p> https://en.wikipedia.org/wiki/Coffee#History</p></a>
+<a href="https://www.livescience.com/55327-the-enlightenment.html"> <p> https://www.livescience.com/55327-the-enlightenment.html</p></a>

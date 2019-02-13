@@ -53,19 +53,26 @@ body{
   vertical-align: middle;
 }
 
+.ntig {
+ margin-left: 30vw;
+}
 
 #content{
   margin-left: 15vw;
   margin-top: 1vh;
-  padding: 1%;
+  padding: 2%;
   width: 50vw;
-  height: 90vh;
+  height: 100vh;
   background-color: white;
   opacity: 0.9;
 }
 
 .column {
   margin: 1;
+}
+
+p {
+  line-height: 1.8;
 }
 
 #navigationbar a{
