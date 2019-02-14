@@ -1,22 +1,14 @@
 <h1>Politics</h1>
 <br>
-
-<p>The age of enlightenment was a time of questioning authority and religion like never before. Across Europe, state and government would be more separated due to new ideas of the time. The scientific method which means conclusions based on evidence and rational thought was a very important concept of this era. Now, it was more accepted to think that all men were equal and individual freedom mattered. Liberalism became a new political ideology which based its thought on the free individual and fewer legal limitations to what one can do.
-
-
-
+<p>
+The age of enlightenment was a time of questioning authority and religion like never before. Across Europe, state and government would be more separated due to new ideas of the time. The scientific method which means conclusions based on evidence and rational thought was a very important concept of this era. Now, it was more accepted to think that all men were equal and individual freedom mattered. Liberalism became a new political ideology which based its thought on the free individual and fewer legal limitations to what one can do.
+<br>
 This period brought up some of the earliest feminists, including well known Mary Wollstonecraft. Along with the ideas of men being equal came the thought that women should have legal rights too. Although there were few, if any, women directly involved in politics their activism still changed the general opinion about women’s legal rights and still influence us today. More about the enlightenment’s women can be read under “Role of women”.
-
-
-
+<br>
 In 1707, the English king would stop being in complete power over the legislation of the country and stepped aside for parliament.  However, the king would still have influence over parliament and the nobility in it. Worth mentioning is that England’s first political parties were established in the end of the 17th century. There were only two parties at the time: Tories and Whigs, with the Tories being conservatives and Whigs more liberal in their politics.
-
-
-
+<br>
 The French revolution in the end of the 18th century took things a bit further with removing the power of the monarchy. After years of oppression from the French king and queen combined with the ideas of thinkers like Voltaire and Roseau, the people took things in their own hands. The new idea of the time was that society is a contract and if one part didn’t fulfil their part they would be punished or resign from power, depending on their position. This was the start of more modern, fairer democracy in Europe and North America.
-
-
-
+<br>
 George Washington became the first American president in 1789. USA was a new country that broke free from being a British colony and based its legislation and declaration of independence on the “all men are equal”- idea. </p>
 
 <hr>
@@ -24,3 +16,4 @@ George Washington became the first American president in 1789. USA was a new cou
 <a href="https://en.wikipedia.org/wiki/United_States#Independence_and_expansion_" <p>https://en.wikipedia.org/wiki/United_States#Independence_and_expansion_ (1776–1865)</p> </a>
 <a href="https://en.wikipedia.org/wiki/Age_of_Enlightenment#Politics" <p>https://en.wikipedia.org/wiki/Age_of_Enlightenment#Politics</p> </a>
 <a href="https://www.enotes.com/homework-help/what-difference-between-whigs-tories-28329" <p>https://www.enotes.com/homework-help/what-difference-between-whigs-tories-28329</p> </a>
+<br>
