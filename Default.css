@@ -231,7 +231,7 @@ footer {
 
   .night {
     float: right;
-    background-image:url('Bilder/do-bright.php.jpeg');
+    background-image:url('Dark.jpeg');
     background-size:100%;
     background-attachment: fixed;
     height:100%;
@@ -318,7 +318,7 @@ footer {
     margin-left: 15vw;
     margin-top: 1vh;
     width: 50vw;
-    height: 90vh;
+    height: 100vh;
     background-color: #4e5156;
     opacity: 0.95;
     color: #dedee0;
