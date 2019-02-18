@@ -370,7 +370,7 @@ footer {
     }
   .drophover:hover .dropcontent{
       display:block;
-      background-color:white;
+      background-color: white;
     }
   .drophover:first-child{
       background-color:beige;
