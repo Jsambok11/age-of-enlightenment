@@ -364,14 +364,6 @@ footer {
     padding: 10px;
   }
 
-  .slider.round {
-    border-radius: 34px;
-  }
-
-  .slider.round:before {
-    border-radius: 50%;
-  }
-
   .drophover{
       position:relative;
       display:inline-block;
