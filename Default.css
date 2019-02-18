@@ -363,3 +363,32 @@ footer {
     margin-top:1vh;
     padding: 10px;
   }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .drophover{
+      position:relative;
+      display:inline-block;
+    }
+  .drophover:hover .dropcontent{
+      display:block;
+      background-color:black;
+    }
+  .drophover:first-child{
+      background-color:beige;
+      color:#000
+    }
+  .dropcontent{
+    display:none;
+    position:absolute;
+    min-width:160px;
+    margin:0;
+    padding:0;
+    z-index:1;
+    }
