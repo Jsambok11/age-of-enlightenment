@@ -8,5 +8,5 @@ var txtFile = new XMLHttpRequest();
 
       document.getElementById('content').innerHTML = allText;
   }
-  txtFile.open("GET", 'Texter/lit.txt', true);
+  txtFile.open("GET", 'Texter/Lit.txt', true);
   txtFile.send(null);
