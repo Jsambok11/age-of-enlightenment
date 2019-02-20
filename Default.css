@@ -2,22 +2,64 @@
 *{
   margin: 0px;
   padding: 0px;
-}
-
-* {
   font-family: 'Varela Round', sans-serif;
   font size: 50:
 
 }
 
-body{
+body {
   float: right;
   background-image:url('https://salimbasarda.net/wp-content/uploads/2016/04/Illuminismu.jpg');
   background-size:100%;
+
   background-attachment: fixed;
   height:100%;
   width:100%;
+
 }
+
+#content h1  {
+    background: red;
+    background: -webkit-linear-gradient(left, blue, violet, red);
+    background: -o-linear-gradient(right, blue, violet, red);
+    background: -moz-linear-gradient(right, blue, violet, red);
+    background: linear-gradient(to right, blue, violet, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*Copied from NTI-website*/
+body:before {
+    content: '';
+    background-image: -webkit-linear-gradient(135deg, #8200b8 0, #200c9c 100%);
+    background-image: -o-linear-gradient(135deg, #8200b8 0, #200c9c 100%);
+    background-image: linear-gradient(-45deg, #8200b8 0, #200c9c 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    z-index: 2
+}
+
+body :before {
+    display: none
+}
+
+body:before {
+    content: '';
+    background-image: -webkit-linear-gradient(135deg, #200c9c 0, #0de1ec 100%);
+    background-image: -o-linear-gradient(135deg, #200c9c 0, #0de1ec 100%);
+    background-image: linear-gradient(-45deg, #200c9c 0, #0de1ec 100%);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    z-index: -1
+}
+/*Up til here*/
 
 #log {
   font-family: 'Shrikhand', cursive;
@@ -53,14 +95,26 @@ body{
   vertical-align: middle;
 }
 
+.ntig {
+ margin-left: 30vw;
+}
 
 #content{
   margin-left: 15vw;
   margin-top: 1vh;
+  padding: 2%;
   width: 50vw;
-  height: 90vh;
+  height: 100vh;
   background-color: white;
   opacity: 0.9;
+}
+
+.column {
+  margin: 1;
+}
+
+p {
+  line-height: 1.8;
 }
 
 #navigationbar a{
@@ -79,9 +133,15 @@ body{
 
 }
 #navigationbar a:hover{
-  color: #d6d6d6;
-  transition: 0.9s;
-  font-size: 23.5px;
+  background: red;
+  background: -webkit-linear-gradient(left, blue, violet, red);
+  background: -o-linear-gradient(right, blue, violet, red);
+  background: -moz-linear-gradient(right, blue, violet, red);
+  background: linear-gradient(to right, blue, violet, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /*transition: 1s !important;*/
+
 
 }
 
@@ -169,29 +229,70 @@ footer {
 
 /*Nightmode CSS*/
 
-  body .night{
+  .night {
     float: right;
-    background-image:url('do-bright.php.jpeg');
+    background-image:url('Dark.jpeg');
     background-size:100%;
     background-attachment: fixed;
     height:100%;
     width:100%;
+    color: white;
+  }
+  /*Copied from NTI-website*/
+  .night:before {
+      content: '';
+      background-image: -webkit-linear-gradient(135deg, #8200b8 0, #200c9c 100%);
+      background-image: -o-linear-gradient(135deg, #8200b8 0, #200c9c 100%);
+      background-image: linear-gradient(-45deg, #8200b8 0, #200c9c 100%);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: .5;
+      z-index: 2
   }
 
-  #log .night {
+  .night:before {
+      display: none
+  }
+
+  .night:before {
+      content: '';
+      background-image: -webkit-linear-gradient(135deg, #200c9c 0, #0de1ec 100%);
+      background-image: -o-linear-gradient(135deg, #200c9c 0, #0de1ec 100%);
+      background-image: linear-gradient(-45deg, #200c9c 0, #0de1ec 100%);
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: .5;
+      z-index: -1
+  }
+  /*Up til here*/
+ .night  #log  {
     font-family: 'Shrikhand', cursive;
     margin-left: 20vw;
     font-size: 50px;
     color: white;g
   }
 
-  #head .night{
+  .night #head {
     background-color: #4e5156;
     opacity: 0.5;
   }
+  .night #content h1  {
+      background: red;
+      background: -webkit-linear-gradient(left, #87ffd7,#96a9ff, #87d1ff);
+      background: -o-linear-gradient(right, #87ffd7, #96a9ff, #87d1ff);
+      background: -moz-linear-gradient(right, #87ffd7, #96a9ff, #87d1ff);
+      background: linear-gradient(to right, #87ffd7, #96a9ff, #87d1ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
 
-
-  #exp .night{
+  .night #exp {
    width: 20vw;
    height: 25vh;
    background-color: #4e5156;
@@ -202,29 +303,28 @@ footer {
    float: right;
 
   }
-  #navigationbar .night{
+  .night #navigationbar {
     width: 100vw;
     height: 11vh;
    background-image: linear-gradient( #111316 , #282c33,#111316);
    box-shadow:5px 1px 100px ;
-
     min-height: 10em;
     display: table-cell;
     vertical-align: middle;
   }
 
 
-  #content .night{
+  .night #content {
     margin-left: 15vw;
     margin-top: 1vh;
     width: 50vw;
-    height: 90vh;
+    height: 100vh;
     background-color: #4e5156;
     opacity: 0.95;
     color: #dedee0;
   }
 
-  #navigationbar a .night{
+  .night #navigationbar a {
     margin-left: 15px;
     padding: 5px;
     text-decoration: none;
@@ -237,14 +337,18 @@ footer {
     border-radius: 6px;
     background-image: linear-gradient( #2d3035 , #494c51);
   }
-  #navigationbar a:hover .night{
-    color: #d6d6d6;
-    transition: 0.5s;
-    font-size: 23.5px;
+  .night #navigationbar a:hover {
+    background: red;
+    background: -webkit-linear-gradient(left, #87ffd7,#96a9ff, #87d1ff);
+    background: -o-linear-gradient(right, #87ffd7, #96a9ff, #87d1ff);
+    background: -moz-linear-gradient(right, #87ffd7, #96a9ff, #87d1ff);
+    background: linear-gradient(to right, #87ffd7, #96a9ff, #87d1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
   }
 
-  #head a .night{
+  .night #head a {
     float:right;
     font-size: 23;
     margin-top: 10px;
@@ -253,8 +357,8 @@ footer {
     color: #2b2e3d;
   }
 
-  footer  .night{
-    background-color: white;
+  .night footer  {
+    background-color: gray;
     opacity: 0.8;
     margin-top:1vh;
     padding: 10px;
