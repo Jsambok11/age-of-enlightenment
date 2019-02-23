@@ -35,8 +35,8 @@ function Skrivut7(){
   });
 };
 function Skrivut8(){
-  $.get("Texter/#.txt", function (data){
-    document.getElementById("content").innerHTML = data;
+  $.get("Texter/none.txt", function (data){
+    document.getElementById("credits").innerHTML = data;
   });
 };
 function Skrivut9(){
@@ -47,5 +47,15 @@ function Skrivut9(){
 function Skrivut10(){
   $.get("Texter/Tech.txt", function (data){
     document.getElementById("content").innerHTML = data;
+  });
+};
+function cred(){
+  $.get("Texter/cred.txt", function (data){
+    document.getElementById("credits").innerHTML = data;
+  });
+};
+function clear(){
+  $.get("Texter/politics.txt", function (data){
+    document.getElementById("credits").innerHTML = data;
   });
 };

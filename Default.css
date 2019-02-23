@@ -18,6 +18,19 @@ body {
 
 }
 
+#exp button {
+  color: white;
+  background-image: linear-gradient(-45deg, #8200b8 0, #200c9c 100%)
+}
+
+#close {
+  float: right;
+}
+tr:hover {
+opacity: .7;
+color: white;
+}
+
 #content h1  {
     background: red;
     background: -webkit-linear-gradient(left, blue, violet, red);
@@ -74,11 +87,14 @@ body:before {
 
 
 #exp {
- width: 20vw;
- height: 25vh;
- background-color: white;
- opacity: 0.9;
- margin-right: 5vw;
+ width: 25vw;
+ height: auto;
+ padding: 10px;
+ background-image: -webkit-linear-gradient(135deg, #200c9c 0, #0de1ec 100%);
+ background-image: -o-linear-gradient(135deg, #200c9c 0, #0de1ec 100%);
+ background-image: linear-gradient(-45deg, #200c9c 0, #0de1ec 100%);
+ opacity: 0.8;
+ margin-right: 2vw;
  margin-top: 5vh;
  position: sticky;
  float: right;
@@ -89,14 +105,14 @@ body:before {
   height: 11vh;
  background-image: linear-gradient( #fff8f2 , #ffffff,#fff8f2);
  box-shadow:5px 1px 100px ;
-
   min-height: 10em;
   display: table-cell;
   vertical-align: middle;
 }
 
 .ntig {
- margin-left: 30vw;
+
+ margin-left: 70vw;
 }
 
 #content{
@@ -107,6 +123,7 @@ body:before {
   height: 100vh;
   background-color: white;
   opacity: 0.9;
+  overflow: scroll;
 }
 
 .column {
@@ -292,15 +309,22 @@ footer {
       -webkit-text-fill-color: transparent;
   }
 
+  .night #exp button {
+    color: white;
+    background-image: linear-gradient( #111316 , #282c33,#111316);
+
+  }
+
   .night #exp {
-   width: 20vw;
-   height: 25vh;
-   background-color: #4e5156;
-   opacity: 0.9;
-   margin-right: 5vw;
-   margin-top: 5vh;
-   position: sticky;
-   float: right;
+    width: 20vw;
+    height: auto;
+    padding: 10px;
+    background-image: linear-gradient( #111316 , #282c33,#111316);
+    opacity: 0.8;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    position: sticky;
+    float: right;
 
   }
   .night #navigationbar {
@@ -322,6 +346,7 @@ footer {
     background-color: #4e5156;
     opacity: 0.95;
     color: #dedee0;
+    overflow: scroll;
   }
 
   .night #navigationbar a {

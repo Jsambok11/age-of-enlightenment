@@ -1,0 +1,58 @@
+
+
+<h3> We made this website: </h3>
+<table>
+
+<tr>
+<td> Site design: </td>
+<td>Hamza, Jenny, Kais, Jakub  </td>
+</tr>
+<tr>
+<td> Site developer: </td>
+<td>Jenny </td>
+</tr>
+<tr>
+<td> Assistant site designer: </td>
+<td>Hamza & Simon </td>
+</tr>
+<tr>
+<td> Role of women: </td>
+<td> Kais </td>
+</tr>
+<tr>
+<td> Economy: </td>
+<td>. </td>
+</tr>
+<tr>
+<td> Religion and superstition: </td>
+<td> Karim </td>
+</tr>
+<tr>
+<td> Art and music: </td>
+<td>Simon </td>
+</tr>
+<tr>
+<td> Culture: </td>
+<td>Jakub </td>
+</tr>
+<tr>
+<td> Societal life: </td>
+<td>Jenny </td>
+</tr>
+<tr>
+<td>Politics</td>
+<td>Jenny </td>
+</tr>
+<tr>
+<td>Tech and science </td>
+<td>Hamza </td>
+</tr>
+<tr>
+<td> Edit and review: </td>
+<td>Jenny </td>
+</tr>
+<tr>
+<td> Literature  </td>
+<td>Everyone listed above </td>
+</tr>
+</table>
